@@ -1,15 +1,16 @@
 import React from 'react';
 import SideBar from './components/sidebar';
+import Dashboard from './components/dashboard';
 
 export default function App() {
     return (
         <div className="row">
-            <div className="col-md-2 pr-0">
+            <div className="col-lg-2 sidebar-props">
                 <SideBar />
             </div>
-            <div className="col-md-10 pl-0">
-                <h2>Dashboard Side</h2>
+            <div className="col-md-12 col-lg-10 dashboard-props">
+                <Dashboard />
             </div>
         </div>
-    );
+    )
 }

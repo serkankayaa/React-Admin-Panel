@@ -1,0 +1,9 @@
+.sidebar-props {
+    background-color: #354051;
+    box-sizing: border-box;
+    padding-right: 0;
+}
+
+.dashboard-props {
+    padding-left: 0;
+}

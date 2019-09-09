@@ -1,16 +1,77 @@
-.sidebar-props {
-    background-color: #354051;
-    box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap');
+
+:root {
+    --parent-color: #2D3646;
 }
 
 .sidebar-header {
     padding: 20px;
     display: flex;
+    justify-content: center;
 }
 
 .header-text {
-    padding-top: 15px;
-    padding-left: 15px;
     font-size: 24px;
+    margin: 10px;
     color: #fff;
+}
+
+.sidebar-menu-title {
+    color: #ACB5BD;
+    font-size: 14px;
+    padding-left: 20px;
+}
+
+@media only screen and (max-width: 992px) {
+    .sidebar-menu {
+        display: none;
+    }
+}
+
+.parent-menu {
+    display: flex;
+    width: stretch !important;
+    text-align: left !important;
+}
+
+.parent-menu:hover {
+    background-color: var(--parent-color);
+}
+
+.parent-menu-text {
+    color: #ced4da;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 21px;
+}
+
+.parent-menu:hover {
+    text-decoration: none !important;
+}
+
+.child-menu{
+    background-color: #313b4c;
+}
+
+.child-menu-item-props {
+    background-color: transparent !important;
+    border-color: transparent !important;
+    width: stretch;
+    text-align: left !important;
+    padding: 10px 0px 10px 60px!important;
+    color: #ced4da !important;
+    font-size: 14px !important;
+}
+
+.child-menu-item-props:focus {
+    box-shadow: none !important;
+}
+
+.child-menu-item-props:hover {
+    background-color: var(--parent-color) !important;
+}
+
+.icon-title-props {
+    color: #C1C7CE;
 }
