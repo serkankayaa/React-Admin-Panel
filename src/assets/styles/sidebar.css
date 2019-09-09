@@ -1,0 +1,16 @@
+.sidebar-props {
+    background-color: #354051;
+    box-sizing: border-box;
+}
+
+.sidebar-header {
+    padding: 20px;
+    display: flex;
+}
+
+.header-text {
+    padding-top: 15px;
+    padding-left: 15px;
+    font-size: 24px;
+    color: #fff;
+}
