@@ -4,6 +4,19 @@
     box-shadow: 0 0 2rem 0 rgba(53, 64, 82, 0.1)
 }
 
+@media only screen and (max-width: 992px) {
+    .navbar-search-props {
+        position: absolute;
+        margin-left: 13%;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .navbar-search-props {
+        display: none!important;
+    }
+}
+
 .navbar-search-prop {
     width: 200px;
     height: 35px;
