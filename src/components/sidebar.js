@@ -3,6 +3,7 @@ import logo from '../assets/images/sidebar-header.svg';
 import { Accordion, Button } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHome, faChartPie, faSlidersH } from "@fortawesome/free-solid-svg-icons";
+import { NavLink } from 'react-router-dom'
 import '../assets/styles/sidebar.css';
 
 export default function SideBar() {
@@ -21,8 +22,8 @@ export default function SideBar() {
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="0">
                         <div className="child-menu">
-                            <Button className="child-menu-item-props"><FontAwesomeIcon icon={faSlidersH} color="gray" className="mr-3" />Default</Button>
-                            <Button className="child-menu-item-props"><FontAwesomeIcon icon={faChartPie} color="gray" className="mr-3" />Analytics</Button>
+                            <Button as={NavLink} activeClassName="selected-sidebar-item" to="/dashboard/default" className="child-menu-item-props"><FontAwesomeIcon icon={faSlidersH} color="gray" className="mr-3" />Default</Button>
+                            <Button as={NavLink} activeClassName="selected-sidebar-item" to="/dashboard/analytics" className="child-menu-item-props"><FontAwesomeIcon icon={faChartPie} color="gray" className="mr-3" />Analytics</Button>
                         </div>
                     </Accordion.Collapse>
                 </Accordion>

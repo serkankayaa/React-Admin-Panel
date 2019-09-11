@@ -40,7 +40,7 @@
 
 .parent-menu-text {
     color: #ced4da;
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: "Nunito Sans", -apple-system, system-ui, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
     font-weight: 400;
     font-style: normal;
     line-height: 21px;
@@ -50,7 +50,7 @@
     text-decoration: none !important;
 }
 
-.child-menu{
+.child-menu {
     background-color: #313b4c;
 }
 
@@ -59,7 +59,7 @@
     border-color: transparent !important;
     width: stretch;
     text-align: left !important;
-    padding: 10px 0px 10px 60px!important;
+    padding: 10px 0px 10px 60px !important;
     color: #ced4da !important;
     font-size: 14px !important;
 }
@@ -74,4 +74,9 @@
 
 .icon-title-props {
     color: #C1C7CE;
+}
+
+.selected-sidebar-item {
+    background-color: var(--parent-color) !important;
+    color: #fff !important;
 }
