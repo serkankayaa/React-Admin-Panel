@@ -48,3 +48,47 @@
     }
 
 }
+
+.footer-props {
+    display: flex;
+    background: #fff;
+    border: 1px solid #dee2e6;
+    padding: 1rem 0.75rem;
+}
+
+.mobile-footer-item {
+    display: none;
+}
+
+.footer-item-list {
+    display: flex;
+    padding-left: 20px;
+    margin-bottom: 0px;
+}
+
+.footer-item-list li {
+    list-style: none;
+    font-family: "Nunito Sans", -apple-system, system-ui, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    color: #495057;
+    font-weight: 400;
+    margin-right: 10px;
+}
+
+
+@media only screen and (max-width: 436px) {
+    .footer-item-list {
+        display: none;
+    }
+
+    .mobile-footer-item {
+        display: flex;
+        list-style: none;
+        padding: 0px;
+    }
+
+    .footer-props {
+        justify-content: center;
+        padding: 10px 0px 0px;
+    }
+
+}
