@@ -13,6 +13,7 @@ export default function Dashboard() {
                 <NavigationBar />
             </div>
             <div className="content">
+                <Route exact path="/" component={DashboardDefault} />
                 <Route path="/dashboard/default" component={DashboardDefault} />
                 <Route path="/dashboard/analytics" component={DashboardAnalytics} />
             </div>

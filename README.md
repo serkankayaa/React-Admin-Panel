@@ -72,3 +72,5 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 - [ ] navbar toggle animations
 - [ ] navbar collapse
+- [ ] Daily feed time and daytime
+- [ ] Daily feed data from api
