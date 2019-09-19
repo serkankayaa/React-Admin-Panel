@@ -21,19 +21,19 @@ export default class DailyFeed extends React.Component {
                         <div className="daily-feed-brand">Today</div>
                         <div className="daily-feed-parent">
                             <div className="daily-feed-inner">
-                                <img className="img-responsive daily-feed-avatar" src="https://pbs.twimg.com/profile_images/988775660163252226/XpgonN0X_400x400.jpg" />
+                                <img className="img-responsive daily-feed-avatar" alt="bill_gates" src="https://pbs.twimg.com/profile_images/988775660163252226/XpgonN0X_400x400.jpg" />
                                 <p className="daily-feed-text">Ashley Briggs started following Stacie Hall</p>
                                 {/* <p className="daily-feed-time">5m ago</p> */}
                             </div>
                             {/* <p className="daily-feed-daytime">Today 7:51 pm</p> */}
                             <hr />
                             <div className="daily-feed-inner">
-                                <img className="img-responsive daily-feed-avatar" src="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/75/755f87b22d0cf6f2dacd7e259d4b0023f17d8571_full.jpg" />
+                                <img className="img-responsive daily-feed-avatar" alt="elon_musk" src="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/75/755f87b22d0cf6f2dacd7e259d4b0023f17d8571_full.jpg" />
                                 <p className="daily-feed-text">Chris Wood posted something on Stacie Hall's timeline</p>
                             </div>
                             <hr />
                             <div className="daily-feed-inner">
-                                <img className="img-responsive daily-feed-avatar" src="https://pbs.twimg.com/profile_images/1040597620752826368/TUh3IlKA.jpg" />
+                                <img className="img-responsive daily-feed-avatar" alt="baris_ozcan" src="https://pbs.twimg.com/profile_images/1040597620752826368/TUh3IlKA.jpg" />
                                 <p className="daily-feed-text">Stacie Hall posted a new blog</p>
                             </div>
                             <hr />

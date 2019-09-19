@@ -74,3 +74,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 - [ ] navbar collapse
 - [ ] Daily feed time and daytime
 - [ ] Daily feed data from api
+- [ ] Weekly Sales from dataset 
+- [ ] GRAPHQL integration
+- [ ] No match 404 page
